@@ -5,10 +5,9 @@
 }
 
 
-
-
 @font-face {
     font-family: "nanum";   
     font-display: fallback;      
     src: url("../src/fonts/nanum.ttf"); 
   }
+

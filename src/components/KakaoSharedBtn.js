@@ -23,7 +23,7 @@ const KakaoShareButton = styled.button`
 const KakaoShareBtn = ({name,checked}) => {
 
     useEffect(() => {
-    createKakaoButton({name});
+    createKakaoButton({name,checked});
 
     if(checked){
       console.log("모델 : 남자모델",checked)

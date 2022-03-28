@@ -7,23 +7,22 @@ export const Container = styled.div`
   margin-left:auto;
   margin-right:auto;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
-  background-color: white;
   flex-direction: column;
   /* background-image: url(${background}); */
   background-size:cover;
   background-color:#FBF6D5;
   @media (min-width: 800px) {
     width: 600px;
-    padding-bottom:200px;
+    padding-bottom:50px;
     height: auto;
   }
   
   /* position:relative; */
   @media (max-height: 800px) {
-    padding-bottom:120px;
+    padding-bottom:50px;
   }
   @media (max-height: 700px) {
     padding-bottom:140px;
