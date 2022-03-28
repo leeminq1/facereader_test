@@ -52,7 +52,7 @@ const KakaoShareBtn = ({name,checked}) => {
         content: {
           title: "내가 왕이될 상인가?",
           description: `내 얼굴형은 ${name}이네요! 결과를 확인하고 공유해보세요!`,
-          imageUrl: checked?`https://facereader-test.web.app/shape/female/${name}.png`:`https://facereader-test.web.app/shape/male/${name}.png`,
+          imageUrl: checked?`https://facereader-test.web.app/shape/male/${name}.png`:`https://facereader-test.web.app/shape/female/${name}.png`,
           link: {
             mobileWebUrl: "https://facereader-test.web.app/",
             webUrl: "https://facereader-test.web.app/",
