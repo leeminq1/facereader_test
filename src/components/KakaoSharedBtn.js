@@ -24,6 +24,15 @@ const KakaoShareBtn = ({name,checked}) => {
 
     useEffect(() => {
     createKakaoButton({name});
+
+    if(checked){
+      console.log("모델 : 남자모델",checked)
+      console.log("얼굴형 :",name)
+    }else{
+      console.log("모델 : 여자모델",checked)
+      console.log("얼굴형 :",name)
+    }
+
   }, [name,checked]);
 
 

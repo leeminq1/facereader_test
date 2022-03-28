@@ -1,6 +1,6 @@
 
 import styled from "styled-components";
-import background from '../assets/background.jpg';
+import background from '../assets/background.png';
 import ImageSelectBox from '../assets/ImageSelectBox2.png';
 
 export const Container = styled.div`
@@ -161,7 +161,7 @@ export const BootomSubText=styled.h1`
      white-space:pre-wrap;
      letter-spacing:3px;
      width:80%;
-     font-size:12px;
+     font-size:11px;
      font-weight:bolder;   
      color:#B5A295;
      text-align: center;
